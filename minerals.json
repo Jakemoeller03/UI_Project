@@ -27,5 +27,12 @@
     "price": 120.00,
     "sketchfabUrl": "https://sketchfab.com/models/f842f5c568af4b808ad309ba3a8db538/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
   }
+  {
+    "id": "quartz",
+    "title": "Quartz",
+    "description": "A very common silicate mineral found in a variety of rock types. It is hard, transparent to opaque, and comes in many colors, including clear, pink (rose quartz), and purple (amethyst).",
+    "price": 3.00,
+    "sketchfabUrl": "https://sketchfab.com/models/40dbf45ad43b485fa9188a5507e8fed4/embed"
+  }
 ]
 
