@@ -96,7 +96,7 @@
     "description": "Bright yellow, nonmetallic element that occurs in native form or in sulfide and sulfate minerals. Utilized in fertilizers and industrial chemicals.",
     "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/61b707bc7e784c90b829386cf79cbf6e/embed?autostart=1&transparent=1&ui_theme=dark"
-  }
+  },
   {
     "id": "plagioclase",
     "title": "Plagioclase",
@@ -140,9 +140,9 @@
     "sketchfabUrl": "https://sketchfab.com/models/6940a39e83ab4504a7b0314870eb4bcc/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
-    "id": "",
-    "title": "galena",
-    "description": "Galena",
+    "id": "galena",
+    "title": "Galena",
+    "description": "A lead sulfide mineral that is the primary ore of lead. It has a metallic luster, high density, and cubic crystal structure.",
     "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/bdb542796b3d498494c62afeec98481e/embed?autostart=1&transparent=1&ui_theme=dark"
   },
