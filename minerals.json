@@ -114,8 +114,7 @@
   {
     "id": "muscovite",
     "title": "Muscovite",
-    "description": "A silicate mineral from the mica group, with a light-colored, transparent to silvery appearance. It forms in thin, flexible sheets and is used in electrical insulators.
-",
+    "description": "A silicate mineral from the mica group, with a light-colored, transparent to silvery appearance. It forms in thin, flexible sheets and is used in electrical insulators. ",
     "price": 3.00,
     "sketchfabUrl": "https://sketchfab.com/models/3946dfd4fe1745ddb7033d826f836ee8/embed?autostart=1&transparent=1&ui_theme=dark"
   },
@@ -136,8 +135,7 @@
   {
     "id": "pyrrhotite",
     "title": "Pyrrhotite",
-    "description": "An iron sulfide mineral that is often bronze to dark brown in color and weakly magnetic. It is commonly found in association with nickel and copper deposits.
-",
+    "description": "An iron sulfide mineral that is often bronze to dark brown in color and weakly magnetic. It is commonly found in association with nickel and copper deposits.",
     "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/6940a39e83ab4504a7b0314870eb4bcc/embed?autostart=1&transparent=1&ui_theme=dark"
   },
@@ -166,7 +164,7 @@
     "id": "chromite",
     "title": "Chromite",
     "description": "A chromium-rich oxide mineral that is the main ore of chromium. It appears black with a metallic to submetallic luster.",
-    "price": $1.00,
+    "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/4ba184b6733f4cd39f98787aebd3a8be/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
