@@ -1,0 +1,31 @@
+[
+  {
+    "id": "sphalerite",
+    "title": "Sphalerite",
+    "description": "A beautiful mineral with a stunning luster and deep color variations.",
+    "price": 120.00,
+    "sketchfabUrl": "https://sketchfab.com/models/b17731fa548f4837a9e4e69afb82347d/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+  },
+  {
+    "id": "wollastonite",
+    "title": "Wollastonite",
+    "description": "A beautiful mineral with a stunning luster and deep color variations.",
+    "price": 120.00,
+    "sketchfabUrl": "https://sketchfab.com/models/1142c78e495f483688b70343f41495c6/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+  },
+  {
+    "id": "kfeldspar",
+    "title": "K-Feldspar",
+    "description": "A beautiful mineral with a stunning luster and deep color variations.",
+    "price": 120.00,
+    "sketchfabUrl": "https://sketchfab.com/models/4c448a3506a747d68fc2a7d6860a16bf/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+  },
+  {
+    "id": "calcite",
+    "title": "Calcite",
+    "description": "A beautiful mineral with a stunning luster and deep color variations.",
+    "price": 120.00,
+    "sketchfabUrl": "https://sketchfab.com/models/f842f5c568af4b808ad309ba3a8db538/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+  }
+]
+
