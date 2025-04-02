@@ -38,63 +38,63 @@
     "id": "tourmaline",
     "title": "Tourmaline",
     "description": "Crystalline silicate material mainly composed of aluminium, iron, magnesium, sodium, lithium, or potassium. Known for its wide range of colors, it can appear as virtually every hue in the rainbow.",
-    "Price": 500.00,
+    "price": 500.00,
     "sketchfabUrl": "https://sketchfab.com/models/4573328e166740c7a68cd7782ada6510/embed?autostart=1&transparent=1&ui_theme=dark"
   },
 {
     "id": "magnesite",
     "title": "Magnesite",
     "description": "A magnesium carbonate mineral that is typically white or gray. It is used as a source of magnesium and in refractory materials. ",
-    "Price": 1.00,
+    "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/14139f62294c417488f1b87c8b1dffff/embed?autostart=1&transparent=1&ui_theme=dark"
   },
 {
     "id": "pyrite",
     "title": "Pyrite",
     "description": "An iron sulfide mineral with a metallic luster and golden-yellow color, often called 'fool's gold.' It forms in a variety of environments.",
-    "Price":1.00,
+    "price":1.00,
     "sketchfabUrl": "https://sketchfab.com/models/3a7c9ebce0cd4e18932fd467e34c33f5/embed?autostart=1&transparent=1&ui_theme=dark"
   },
 {
     "id": "ilmenite",
     "title": "Ilmenite",
     "description": "An iron titanium oxide mineral that is black with a metallic to submetallic luster. It is an important source of titanium.",
-    "Price":1.00,
+    "price":1.00,
     "sketchfabUrl": "https://sketchfab.com/models/8844446ab0ff47099bb3daa384566c58/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
     "id": "rutile",
     "title": "Rutile",
     "description": "A titanium dioxide mineral that is often reddish-brown or black. It is a major source of titanium and is used in pigments and coatings.",
-    "Price": 70.00,
+    "price": 70.00,
     "sketchfabUrl": "https://sketchfab.com/models/a4449921ca3c4208860d3847c58908c9/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
     "id": "tremolite",
     "title": "Tremolite",
     "description": "Monoclinic calcic amphibole, exhibits a vitreous luster and white streaks. Used commercially as asbestos. Handle with care",
-    "Price": 210,
+    "price": 210,
     "sketchfabUrl": "https://sketchfab.com/models/7a857953864a434bab5b6c3b1e656fcc/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
     "id": "siderite",
     "title": "Siderite",
     "description": "Iron carbonate mineral, brownish to yellowish color. Serves as an iron ore and is commonly found in sedimentary and hydrothermal environments.",
-    "Price": 1.00,
+    "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/abde5496ab2b4bf0b78e91d50f46819d/embed?autostart=1&transparent=1&ui_theme=dark"
   },	
   {
     "id": "hornblende",
     "title": "Hornblende",
     "description": "Dark-colored, complex silicate mineral of the amphibole group, found in igneous and metamorphic rocks. Commonly black/green in color.",
-    "Price": 2.00,
+    "price": 2.00,
     "sketchfabUrl": "https://sketchfab.com/models/7206115d0c87479b8e4a16c2e4886821/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
     "id": "sulfur",
     "title": "Sulfur",
     "description": "Bright yellow, nonmetallic element that occurs in native form or in sulfide and sulfate minerals. Utilized in fertilizers and industrial chemicals.",
-    "Price": 1.00,
+    "price": 1.00,
     "sketchfabUrl": "https://sketchfab.com/models/61b707bc7e784c90b829386cf79cbf6e/embed?autostart=1&transparent=1&ui_theme=dark"
   }	
 ]
