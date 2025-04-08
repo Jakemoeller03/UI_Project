@@ -6,7 +6,8 @@
     "price": 120.00,
     "color": "Multi",
     "hardness": "3.50",
-    "sketchfabUrl": "https://media.sketchfab.com/models/b17731fa548f4837a9e4e69afb82347d/fallbacks/5cff478d4e384b5888eeb200ee212237/c72a62ffaed34365b190390f0a45cec0.jpeg"
+    "photo": "https://media.sketchfab.com/models/b17731fa548f4837a9e4e69afb82347d/fallbacks/5cff478d4e384b5888eeb200ee212237/c72a62ffaed34365b190390f0a45cec0.jpeg",
+    "sketchfabUrl":
   },
   {
     "id": "wollastonite",
@@ -15,7 +16,8 @@
     "price": 120.00,
     "color": "White",
     "hardness": "4.50",
-    "sketchfabUrl": "//media.sketchfab.com/models/1142c78e495f483688b70343f41495c6/fallbacks/5c448325955b47cb971e5beb2bcb860f/04064cab339d47869111dfd077dd8ee3.jpeg"
+    "photo": "//media.sketchfab.com/models/1142c78e495f483688b70343f41495c6/fallbacks/5c448325955b47cb971e5beb2bcb860f/04064cab339d47869111dfd077dd8ee3.jpeg",
+    "sketchfabUrl":
   },
   {
     "id": "kfeldspar",
@@ -24,7 +26,8 @@
     "price": 120.00,
     "color": "Multi",
     "hardness": "6.00",
-    "sketchfabUrl": "https://sketchfab.com/models/4c448a3506a747d68fc2a7d6860a16bf/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+    "photo": "https://sketchfab.com/models/4c448a3506a747d68fc2a7d6860a16bf/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark",
+    "sketchfabUrl":
   },
   {
     "id": "calcite",
@@ -33,7 +36,8 @@
     "price": 120.00,
     "color": "Multi",
     "hardness": "3.00",
-    "sketchfabUrl": "https://sketchfab.com/models/f842f5c568af4b808ad309ba3a8db538/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark"
+    "photo": "https://sketchfab.com/models/f842f5c568af4b808ad309ba3a8db538/embed?autostart=1&camera=0&preload=1&transparent=1&ui_theme=dark",
+    "sketchfabUrl":
   },
   {
     "id": "quartz",
@@ -42,7 +46,8 @@
     "price": 3.00,
     "color": "Multi",
     "hardness": "7.00",
-    "sketchfabUrl": "https://sketchfab.com/models/40dbf45ad43b485fa9188a5507e8fed4/embed?autostart=1&camera=0&transparent=1&ui_theme=dark"
+    "photo": "https://sketchfab.com/models/40dbf45ad43b485fa9188a5507e8fed4/embed?autostart=1&camera=0&transparent=1&ui_theme=dark",
+    "sketchfabUrl":
   },
   {
     "id": "tourmaline",
@@ -51,7 +56,8 @@
     "price": 500.00,
     "color": "Multi",
     "hardness": "7.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/tourmaline.png",
+    "sketchfabUrl":
   },
   {
     "id": "magnesite",
@@ -60,7 +66,8 @@
     "price": 1.00,
     "color": "White",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/magnesite.png",
+    "sketchfabUrl":
   },
   {
     "id": "pyrite",
@@ -69,7 +76,8 @@
     "price":1.00,
     "color": "Yellow",
     "hardness": "6.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/pyrite.png",
+    "sketchfabUrl":
   },
   {
     "id": "ilmenite",
@@ -78,7 +86,8 @@
     "price":1.00,
     "color": "Grey",
     "hardness": "5.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/ilmenite.png",
+    "sketchfabUrl":
   },
   {
     "id": "rutile",
@@ -87,7 +96,8 @@
     "price": 70.00,
     "color": "Black",
     "hardness": "6.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/rutile.png",
+    "sketchfabUrl":
   },
   {
     "id": "tremolite",
@@ -96,7 +106,8 @@
     "price": 210,
     "color": "White",
     "hardness": "5.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/tremolite.png",
+    "sketchfabUrl":
   },
   {
     "id": "siderite",
@@ -105,7 +116,8 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "3.75",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/siderite.png",
+    "sketchfabUrl":
   },
   {
     "id": "hornblende",
@@ -114,7 +126,8 @@
     "price": 2.00,
     "color": "Black",
     "hardness": "5.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/hornblende.png",
+    "sketchfabUrl":
   },
   {
     "id": "sulfur",
@@ -123,7 +136,8 @@
     "price": 1.00,
     "color": "Yellow",
     "hardness": "1.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/sulfur.png",
+    "sketchfabUrl":
   },
   {
     "id": "plagioclase",
@@ -132,7 +146,8 @@
     "price": 1.00,
     "color": "White",
     "hardness": "6.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/plagioclase.png",
+    "sketchfabUrl":
   },
   {
     "id": "flint",
@@ -141,7 +156,8 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "7.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/flint.png",
+    "sketchfabUrl":
   },
   {
     "id": "muscovite",
@@ -150,7 +166,8 @@
     "price": 3.00,
     "color": "Yellow",
     "hardness": "2.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/muscovite.png",
+    "sketchfabUrl":
   },
   {
     "id": "molybdenite",
@@ -159,7 +176,8 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "1.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/molybdenite.png",
+    "sketchfabUrl":
   },
   {
     "id": "magnetite",
@@ -168,7 +186,8 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/magnetite.png",
+    "sketchfabUrl":
   },
   {
     "id": "pyrrhotite",
@@ -177,7 +196,8 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/pyrrhotite.png",
+    "sketchfabUrl":
   },
   {
     "id": "galena",
@@ -186,7 +206,8 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "2.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/galena.png",
+    "sketchfabUrl":
   },
   {
     "id": "kyanite",
@@ -195,7 +216,8 @@
     "price": 72.00,
     "color": "Blue",
     "hardness": "7.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/kyanite.png",
+    "sketchfabUrl":
   },
   {
     "id": "chalcopyrite",
@@ -204,7 +226,8 @@
     "price": 1.00,
     "color": "Yellow",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/chalcopyrite.png",
+    "sketchfabUrl":
   },
   {
     "id": "chromite",
@@ -213,7 +236,8 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/chromite.png",
+    "sketchfabUrl":
   },
   {
     "id": "cordierite",
@@ -222,7 +246,8 @@
     "price": 4.00,
     "color": "Multi",
     "hardness": "7.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/cordierite.png",
+    "sketchfabUrl":
   },
   {
     "id": "chlorite",
@@ -231,7 +256,8 @@
     "price": 1.00,
     "color": "Green",
     "hardness": "2.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/chlorite.png",
+    "sketchfabUrl":
   },
   {
     "id": "gypsum",
@@ -240,7 +266,8 @@
     "price":1.00,
     "color": "White",
     "hardness": "2.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/gypsum.png",
+    "sketchfabUrl":
   },
   {
     "id": "hypersthene",
@@ -249,7 +276,8 @@
     "price": 10.00,
     "color": "Brown",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/hypersthene.png",
+    "sketchfabUrl":
   },
   {
     "id": "hematite",
@@ -258,7 +286,8 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/hematite.png",
+    "sketchfabUrl":
   },
   {
     "id": "limonite",
@@ -267,16 +296,18 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "4.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/limonite.png",
+    "sketchfabUrl":
   },
-{
+  {
     "id": "epidote",
     "title": "Epidote",
     "description": "A calcium aluminum iron silicate mineral that is typically green and found in metamorphic rocks. It forms elongated, prismatic crystals.",
     "price": 15.00,
   "color": "Green",
     "hardness": "15.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/epidote.png",
+    "sketchfabUrl":
   },
   {
     "id": "dolomite",
@@ -285,7 +316,8 @@
     "price": 1.00,
     "color": "Multi",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/dolomite.png",
+    "sketchfabUrl":
   },
   {
     "id": "diopside",
@@ -294,7 +326,8 @@
     "price": 1.00,
     "color": "Multi",
     "hardness": "5.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/diopside.png",
+    "sketchfabUrl":
   },
   {
     "id": "arsenopyrite",
@@ -303,7 +336,8 @@
     "price": 1.00,
     "color": "Silver",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/arsenopyrite.png",
+    "sketchfabUrl":
   },
   {
     "id": "garnet",
@@ -312,7 +346,8 @@
     "price": 500.00,
     "color": "Orange",
     "hardness": "6.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/garnet.png",
+    "sketchfabUrl":
   },
   {
     "id": "azuritemalachite",
@@ -321,7 +356,8 @@
     "price": 40.00,
     "color": "Blue",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/azuritemalachite.png",
+    "sketchfabUrl":
   },
   {
     "id": "topaz",
@@ -330,7 +366,8 @@
     "price": 3000.00,
     "color": "Mutlti",
     "hardness": "8.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/topaz.png",
+    "sketchfabUrl":
   },
   {
     "id": "olivine",
@@ -339,7 +376,8 @@
     "price": 50.00,
     "color": "Green",
     "hardness": "6.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/olivine.png",
+    "sketchfabUrl":
   },
   {
     "id": "zeolite",
@@ -348,7 +386,8 @@
     "price": 5.00,
     "color": "Pink",
     "hardness": "4.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/zeolite.png",
+    "sketchfabUrl":
   },
   {
     "id": "shungite",
@@ -357,7 +396,8 @@
     "price": 6.38,
     "color": "Black",
     "hardness": "3.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/shungite.png",
+    "sketchfabUrl":
   },
   {
     "id": "biotite",
@@ -366,7 +406,8 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "2.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/biotite.png",
+    "sketchfabUrl":
   },
   {
     "id": "fluorite",
@@ -375,7 +416,8 @@
     "price": 3.00,
     "color": "Purple",
     "hardness": "4.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/fluorite.png",
+    "sketchfabUrl":
   },
   {
     "id": "apatite",
@@ -384,7 +426,8 @@
     "price": 10.00,
     "color": "Blue",
     "hardness": "5.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/apatite.png",
+    "sketchfabUrl":
   },
   {
     "id": "halite",
@@ -393,7 +436,8 @@
     "price": 7.50,
     "color": "White",
     "hardness": "2.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/halite.png",
+    "sketchfabUrl":
   },
   {
     "id": "barite",
@@ -402,7 +446,8 @@
     "price": 14.00,
     "color": "White",
     "hardness": "3.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/barite.png",
+    "sketchfabUrl":
   },
   {
     "id": "rhodonite",
@@ -411,7 +456,8 @@
     "price": 25.00,
     "color": "Pink",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/rhodonite.png",
+    "sketchfabUrl":
   },
   {
     "id": "vesuvianite",
@@ -420,7 +466,8 @@
     "price": 24.62,
     "color": "Green",
     "hardness": "6.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/vesuvianite.png",
+    "sketchfabUrl":
   },
   {
     "id": "opal",
@@ -429,7 +476,8 @@
     "price": 10.00,
     "color": "White",
     "hardness": "5.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/opal.png",
+    "sketchfabUrl":
   },
   {
     "id": "kaolinite",
@@ -438,7 +486,8 @@
     "price": 150.00,
     "color": "White",
     "hardness": "2.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/kaolinite.png",
+    "sketchfabUrl":
   },
   {
     "id": "cassiterite",
@@ -447,7 +496,8 @@
     "price": 125.00,
     "color": "Black",
     "hardness": "6.00",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/cassiterite.png",
+    "sketchfabUrl":
   },
   {
     "id": "phlogopite",
@@ -456,7 +506,8 @@
     "price": 8.00,
     "color": "Gold",
     "hardness": "2.50",
-    "sketchfabUrl": "rock.png"
+    "photo": "src/phlogopite.png",
+    "sketchfabUrl":
   }
 
 ]
