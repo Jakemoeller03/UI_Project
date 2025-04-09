@@ -1,61 +1,16 @@
 <?php
-	session_start();
-	$cartCount = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
-	$minerals = json_decode(file_get_contents('minerals.json'), true);
-
-
-	$sort = isset($_GET['sort']) ? $_GET['sort'] : '';
-	$search = isset($_GET['search']) ? $_GET['search'] : '';
-	$color = isset($_GET['color']) ? strtolower($_GET['color']) : '';
-
-	if (!empty($search)) {
-		$filtered = array();
-		foreach ($minerals as $mineral) {
-			$title = strtolower($mineral['title']);
-			$desc = strtolower($mineral['description']);
-			if (strpos($title, strtolower($search)) !== false || strpos($desc, strtolower($search)) !== false) {
-				$filtered[] = $mineral;
-			}
-		}
-		$minerals = $filtered;
-	}
-
-	if (!empty($color)) {
-		$filtered = array_filter($minerals, function($mineral) use ($color) {
-			return strtolower($mineral['color']) === $color;
-		});
-		$minerals = array_values($filtered); 
-	}
-
-	if ($sort === 'price_desc') {
-		usort($minerals, function($a, $b) {
-			return $b['price'] - $a['price'];
-		});
-	} elseif ($sort === 'price_asc') {
-		usort($minerals, function($a, $b) {
-			return $a['price'] - $b['price'];
-		});
-	} elseif ($sort === 'hardness_desc') {
-		usort($minerals, function($a, $b) {
-			return $b['hardness'] - $a['hardness'];
-		});
-	} elseif ($sort === 'hardness_asc') {
-		usort($minerals, function($a, $b) {
-			return $a['hardness'] - $b['hardness'];
-		});
-	}
+session_start();
+$cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 ?>
 
-<html lang="en">
+<html>
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minerals for Sale</title>
-
-        <script src="https://cdn.tailwindcss.com"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-        <link rel="stylesheet" href="styles.css">
+    <title>Your Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
 </head>
+	
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
     <a href="index.php" title="Big Rock Hard Mineral Co." class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -150,7 +105,7 @@
     <div class="hidden w-full md:block md:w-1/4" id="navbar-default">
       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a href="index.php" title="Home" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          <a href="index.php" title="Home" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
         </li>
         
         <li>
@@ -168,7 +123,7 @@
         </li>
       </ul>
     </div>
-	<a href="cart.php" title="View Cart" class="relative me-4 flex items-center justify-center text-gray-700 hover:text-blue-700 dark:text-white dark:hover:text-blue-500">
+	<a href="cart.php" title="View Cart" class="relative me-4 flex items-center justify-center text-blue-700 dark:text-blue-500">
 		<svg class="w-6 h-6 md:w-9 md:h-9" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
 			<path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.3 5.2A1 1 0 007 20h10a1 1 0 001-1.2L17 13M7 13H5.4M17 13l1.3 5.2M9 21a1 1 0 100-2 1 1 0 000 2zm6 0a1 1 0 100-2 1 1 0 000 2z"></path>
 		</svg>
@@ -181,27 +136,53 @@
   </div>
 </nav>
 	<div class="py-4">
-	<?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
-	<h1 class="text-center text-3xl font-bold whitespace-nowrap">Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
-	<?php endif; ?>
+	
 	</div>
 <body class="bg-gray-300">
-        <div class="max-w-6xl mx-auto  p-6">
-                <div style={{ height: '20px' }}></div>
+    <div class="max-w-4xl mx-auto mt-10 bg-white rounded-lg shadow p-6">
+        <h1 class="text-3xl font-bold mb-4">Your Cart</h1>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                        <?php foreach ($minerals as $mineral): ?>
-							<div class="bg-white rounded-lg shadow-lg p-4">
-								<a href="item.php?id=<?php echo urlencode($mineral['id']); ?>">
-									<img src="assets/images/<?php echo htmlspecialchars($mineral['photo']); ?>" title="<?php echo htmlspecialchars($mineral['title']); ?>" alt="<?php echo htmlspecialchars($mineral['title']); ?>" class="w-full h-48 object-cover rounded">
-								</a>
-								<h2 class="text-xl font-semibold mt-3"><?php echo htmlspecialchars($mineral['title']); ?></h2>
-								<p class="text-gray-600"><?php echo htmlspecialchars($mineral['description']); ?></p>
-								<p class="text-lg font-bold mt-2 py-2">$<?php echo number_format($mineral['price'], 2); ?></p>
-								<a href="item.php?id=<?php echo urlencode($mineral['id']); ?>" title="View"class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mx-auto rounded">View</a>
-							</div>
-						<?php endforeach; ?>
-                </div>
+        <?php if (empty($cart)): ?>
+            <p class="text-gray-600">Your cart is empty.</p>
+        <?php else: ?>
+            <table class="w-full table-auto mb-4">
+                <thead>
+                    <tr class="text-left border-b">
+                        <th class="py-2">Item</th>
+                        <th class="py-2">Price</th>
+                        <th class="py-2">Quantity</th>
+                        <th class="py-2">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php $grandTotal = 0; ?>
+                    <?php foreach ($cart as $id => $item): ?>
+                        <?php $total = $item['price'] * $item['quantity']; ?>
+                        <?php $grandTotal += $total; ?>
+                        <tr class="border-b">
+                            <td class="py-2 flex items-center gap-4">
+                                <img src="assets/images/<?php echo htmlspecialchars($item['photo']); ?>" alt="" class="w-12 h-12 object-cover rounded">
+                                <?php echo htmlspecialchars($item['title']); ?>
+                            </td>
+                            <td class="py-2">$<?php echo number_format($item['price'], 2); ?></td>
+                            <td class="py-2"><?php echo $item['quantity']; ?></td>
+                            <td class="py-2">$<?php echo number_format($total, 2); ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+
+            <p class="text-right text-xl font-semibold">Grand Total: $<?php echo number_format($grandTotal, 2); ?></p>
+			<form action="checkout.php" method="post" class="mt-4">
+			<button type="Order" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+				Order
+			</button>
+			</form>
+        <?php endif; ?>
+
+        <div class="mt-6">
+            <a href="index.php" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Continue Shopping</a>
         </div>
+    </div>
 </body>
 </html>

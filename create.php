@@ -1,56 +1,9 @@
-<?php
-	session_start();
-	$cartCount = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
-	$minerals = json_decode(file_get_contents('minerals.json'), true);
-
-
-	$sort = isset($_GET['sort']) ? $_GET['sort'] : '';
-	$search = isset($_GET['search']) ? $_GET['search'] : '';
-	$color = isset($_GET['color']) ? strtolower($_GET['color']) : '';
-
-	if (!empty($search)) {
-		$filtered = array();
-		foreach ($minerals as $mineral) {
-			$title = strtolower($mineral['title']);
-			$desc = strtolower($mineral['description']);
-			if (strpos($title, strtolower($search)) !== false || strpos($desc, strtolower($search)) !== false) {
-				$filtered[] = $mineral;
-			}
-		}
-		$minerals = $filtered;
-	}
-
-	if (!empty($color)) {
-		$filtered = array_filter($minerals, function($mineral) use ($color) {
-			return strtolower($mineral['color']) === $color;
-		});
-		$minerals = array_values($filtered); 
-	}
-
-	if ($sort === 'price_desc') {
-		usort($minerals, function($a, $b) {
-			return $b['price'] - $a['price'];
-		});
-	} elseif ($sort === 'price_asc') {
-		usort($minerals, function($a, $b) {
-			return $a['price'] - $b['price'];
-		});
-	} elseif ($sort === 'hardness_desc') {
-		usort($minerals, function($a, $b) {
-			return $b['hardness'] - $a['hardness'];
-		});
-	} elseif ($sort === 'hardness_asc') {
-		usort($minerals, function($a, $b) {
-			return $a['hardness'] - $b['hardness'];
-		});
-	}
-?>
 
 <html lang="en">
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minerals for Sale</title>
+        <title>Create Account</title>
 
         <script src="https://cdn.tailwindcss.com"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
@@ -150,7 +103,7 @@
     <div class="hidden w-full md:block md:w-1/4" id="navbar-default">
       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a href="index.php" title="Home" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          <a href="Home.php" title="Home" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
         </li>
         
         <li>
@@ -163,7 +116,7 @@
 		<?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
           <a href="logout.php" title="Log Out" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Log Out</a>
 		<?php else: ?>
-		  <a href="login.php" title="Log In" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Log In</a>
+		  <a href="index.php" title="Log in" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Log In</a>
 		<?php endif; ?>
         </li>
       </ul>
@@ -180,28 +133,31 @@
 	</a>
   </div>
 </nav>
-	<div class="py-4">
-	<?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
-	<h1 class="text-center text-3xl font-bold whitespace-nowrap">Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
-	<?php endif; ?>
-	</div>
 <body class="bg-gray-300">
-        <div class="max-w-6xl mx-auto  p-6">
-                <div style={{ height: '20px' }}></div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                        <?php foreach ($minerals as $mineral): ?>
-							<div class="bg-white rounded-lg shadow-lg p-4">
-								<a href="item.php?id=<?php echo urlencode($mineral['id']); ?>">
-									<img src="assets/images/<?php echo htmlspecialchars($mineral['photo']); ?>" title="<?php echo htmlspecialchars($mineral['title']); ?>" alt="<?php echo htmlspecialchars($mineral['title']); ?>" class="w-full h-48 object-cover rounded">
-								</a>
-								<h2 class="text-xl font-semibold mt-3"><?php echo htmlspecialchars($mineral['title']); ?></h2>
-								<p class="text-gray-600"><?php echo htmlspecialchars($mineral['description']); ?></p>
-								<p class="text-lg font-bold mt-2 py-2">$<?php echo number_format($mineral['price'], 2); ?></p>
-								<a href="item.php?id=<?php echo urlencode($mineral['id']); ?>" title="View"class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mx-auto rounded">View</a>
-							</div>
-						<?php endforeach; ?>
-                </div>
-        </div>
-</body>
-</html>
+  <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+      
+      <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                  Create an Account
+              </h1>
+              <form class="space-y-4 md:space-y-6" action="do_login.php" method="post">
+                  <div>
+                      <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Username</label>
+                      <input type="username" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" required="">
+                  </div>
+                  <div>
+                      <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                      <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                  </div>
+                 
+                      
+                  </div>
+                  <button type="submit" class="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign up!</button>
+                  
+              </form>
+          </div>
+      </div>
+	</body>
+  </div>
+</section>

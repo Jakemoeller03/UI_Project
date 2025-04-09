@@ -56,7 +56,7 @@
     "price": 500.00,
     "color": "Multi",
     "hardness": "7.00",
-    "photo": "src/tourmaline.png",
+    "photo": "tourmaline.png",
     "sketchfabUrl": "https://sketchfab.com/models/4573328e166740c7a68cd7782ada6510/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -66,7 +66,7 @@
     "price": 1.00,
     "color": "White",
     "hardness": "3.50",
-    "photo": "src/magnesite.png",
+    "photo": "magnesite.png",
     "sketchfabUrl": "https://sketchfab.com/models/14139f62294c417488f1b87c8b1dffff/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -76,7 +76,7 @@
     "price":1.00,
     "color": "Yellow",
     "hardness": "6.00",
-    "photo": "src/pyrite.png",
+    "photo": "pyrite.png",
     "sketchfabUrl": "https://sketchfab.com/models/3a7c9ebce0cd4e18932fd467e34c33f5/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -86,7 +86,7 @@
     "price":1.00,
     "color": "Grey",
     "hardness": "5.00",
-    "photo": "src/ilmenite.png",
+    "photo": "ilmenite.png",
     "sketchfabUrl": "https://sketchfab.com/models/8844446ab0ff47099bb3daa384566c58/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -96,7 +96,7 @@
     "price": 70.00,
     "color": "Black",
     "hardness": "6.00",
-    "photo": "src/rutile.png",
+    "photo": "rutile.png",
     "sketchfabUrl": "https://sketchfab.com/models/a4449921ca3c4208860d3847c58908c9/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -106,7 +106,7 @@
     "price": 210,
     "color": "White",
     "hardness": "5.00",
-    "photo": "src/tremolite.png",
+    "photo": "tremolite.png",
     "sketchfabUrl": "https://sketchfab.com/models/7a857953864a434bab5b6c3b1e656fcc/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -116,7 +116,7 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "3.75",
-    "photo": "src/siderite.png",
+    "photo": "siderite.png",
     "sketchfabUrl": "https://sketchfab.com/models/abde5496ab2b4bf0b78e91d50f46819d/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -126,7 +126,7 @@
     "price": 2.00,
     "color": "Black",
     "hardness": "5.00",
-    "photo": "src/hornblende.png",
+    "photo": "hornblende.png",
     "sketchfabUrl": "https://sketchfab.com/models/7206115d0c87479b8e4a16c2e4886821/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -136,7 +136,7 @@
     "price": 1.00,
     "color": "Yellow",
     "hardness": "1.50",
-    "photo": "src/sulfur.png",
+    "photo": "sulfur.png",
     "sketchfabUrl": "https://sketchfab.com/models/61b707bc7e784c90b829386cf79cbf6e/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -146,7 +146,7 @@
     "price": 1.00,
     "color": "White",
     "hardness": "6.00",
-    "photo": "src/plagioclase.png",
+    "photo": "plagioclase.png",
     "sketchfabUrl": "https://sketchfab.com/models/9eca94a2447544afbf907f40bb27497c/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -156,7 +156,7 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "7.00",
-    "photo": "src/flint.png",
+    "photo": "flint.png",
     "sketchfabUrl": "https://sketchfab.com/models/3853d25e253e4a36b91dc3d601c08c10/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -166,7 +166,7 @@
     "price": 3.00,
     "color": "Yellow",
     "hardness": "2.00",
-    "photo": "src/muscovite.png",
+    "photo": "muscovite.png",
     "sketchfabUrl": "https://sketchfab.com/models/3946dfd4fe1745ddb7033d826f836ee8/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -176,7 +176,7 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "1.00",
-    "photo": "src/molybdenite.png",
+    "photo": "molybdenite.png",
     "sketchfabUrl": "https://sketchfab.com/models/777b32d4b0e54a15b5da9ac5512d411b/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -186,7 +186,7 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "5.50",
-    "photo": "src/magnetite.png",
+    "photo": "magnetite.png",
     "sketchfabUrl": "https://sketchfab.com/models/b151bbb5f9e84d8388024ed6117dfa81/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -196,7 +196,7 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "3.50",
-    "photo": "src/pyrrhotite.png",
+    "photo": "pyrrhotite.png",
     "sketchfabUrl": "https://sketchfab.com/models/6940a39e83ab4504a7b0314870eb4bcc/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -206,7 +206,7 @@
     "price": 1.00,
     "color": "Grey",
     "hardness": "2.50",
-    "photo": "src/galena.png",
+    "photo": "galena.png",
     "sketchfabUrl": "https://sketchfab.com/models/bdb542796b3d498494c62afeec98481e/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -216,7 +216,7 @@
     "price": 72.00,
     "color": "Blue",
     "hardness": "7.00",
-    "photo": "src/kyanite.png",
+    "photo": "kyanite.png",
     "sketchfabUrl": "https://sketchfab.com/models/54e6e2bd7db44294b0cb44afa0bb4d3d/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -226,7 +226,7 @@
     "price": 1.00,
     "color": "Yellow",
     "hardness": "3.50",
-    "photo": "src/chalcopyrite.png",
+    "photo": "chalcopyrite.png",
     "sketchfabUrl": "https://sketchfab.com/models/9b0059db3bfd41a7ae6f51bd9b045e3f/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -236,7 +236,7 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "5.50",
-    "photo": "src/chromite.png",
+    "photo": "chromite.png",
     "sketchfabUrl": "https://sketchfab.com/models/4ba184b6733f4cd39f98787aebd3a8be/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -246,7 +246,7 @@
     "price": 4.00,
     "color": "Multi",
     "hardness": "7.00",
-    "photo": "src/cordierite.png",
+    "photo": "cordierite.png",
     "sketchfabUrl": "https://sketchfab.com/models/ec004baaf3e144b8a2751c92f71f714b/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -256,7 +256,7 @@
     "price": 1.00,
     "color": "Green",
     "hardness": "2.00",
-    "photo": "src/chlorite.png",
+    "photo": "chlorite.png",
     "sketchfabUrl": "https://sketchfab.com/models/f4e8454055d04977a4330ae40dbcd6ce/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -266,7 +266,7 @@
     "price":1.00,
     "color": "White",
     "hardness": "2.00",
-    "photo": "src/gypsum.png",
+    "photo": "gypsum.png",
     "sketchfabUrl": "https://sketchfab.com/models/de785119fe014b5e998a17e0fdcf6850/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -276,7 +276,7 @@
     "price": 10.00,
     "color": "Brown",
     "hardness": "5.50",
-    "photo": "src/hypersthene.png",
+    "photo": "hypersthene.png",
     "sketchfabUrl": "https://sketchfab.com/models/4ea09145a46f44aaad679f35ebdda4b5/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -286,7 +286,7 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "5.50",
-    "photo": "src/hematite.png",
+    "photo": "hematite.png",
     "sketchfabUrl": "https://sketchfab.com/models/f87123b191804e4bac73ce34a42e073e/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -296,7 +296,7 @@
     "price": 1.00,
     "color": "Brown",
     "hardness": "4.00",
-    "photo": "src/limonite.png",
+    "photo": "limonite.png",
     "sketchfabUrl": "https://sketchfab.com/models/946c1af32c9d42df8832e3848267036c/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -306,7 +306,7 @@
     "price": 15.00,
   "color": "Green",
     "hardness": "15.00",
-    "photo": "src/epidote.png",
+    "photo": "epidote.png",
     "sketchfabUrl": "https://sketchfab.com/models/b0882dfbef97420ca509ce8ea9e2ca40/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -316,7 +316,7 @@
     "price": 1.00,
     "color": "Multi",
     "hardness": "3.50",
-    "photo": "src/dolomite.png",
+    "photo": "dolomite.png",
     "sketchfabUrl": "https://sketchfab.com/models/eaaf248e70504e699f11e02b7929186c/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -326,7 +326,7 @@
     "price": 1.00,
     "color": "Multi",
     "hardness": "5.00",
-    "photo": "src/diopside.png",
+    "photo": "diopside.png",
     "sketchfabUrl": "https://sketchfab.com/models/8ac6cf59b32d4402b04b6283ae8506d9/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -336,7 +336,7 @@
     "price": 1.00,
     "color": "Silver",
     "hardness": "5.50",
-    "photo": "src/arsenopyrite.png",
+    "photo": "arsenopyrite.png",
     "sketchfabUrl": "https://sketchfab.com/models/6b1015d892c642979fbea843601f14bb/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -346,7 +346,7 @@
     "price": 500.00,
     "color": "Orange",
     "hardness": "6.50",
-    "photo": "src/garnet.png",
+    "photo": "garnet.png",
     "sketchfabUrl": "https://sketchfab.com/models/61cb356aca08403d809d9595b352f9a0/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -356,7 +356,7 @@
     "price": 40.00,
     "color": "Blue",
     "hardness": "3.50",
-    "photo": "src/azuritemalachite.png",
+    "photo": "azuritemalachite.png",
     "sketchfabUrl": "https://sketchfab.com/models/0d8c11031eca45a6862616723d36b014/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -366,7 +366,7 @@
     "price": 3000.00,
     "color": "Mutlti",
     "hardness": "8.00",
-    "photo": "src/topaz.png",
+    "photo": "topaz.png",
     "sketchfabUrl": "https://sketchfab.com/models/a30c9073f8ed4f0a8ab653dc84a672e5/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -376,7 +376,7 @@
     "price": 50.00,
     "color": "Green",
     "hardness": "6.50",
-    "photo": "src/olivine.png",
+    "photo": "olivine.png",
     "sketchfabUrl": "https://sketchfab.com/models/b978775d10c94646b8a3267094c24f45/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -386,7 +386,7 @@
     "price": 5.00,
     "color": "Pink",
     "hardness": "4.00",
-    "photo": "src/zeolite.png",
+    "photo": "zeolite.png",
     "sketchfabUrl": "https://sketchfab.com/models/1f90de45051e4d3d878cd1be45e90b9e/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -396,7 +396,7 @@
     "price": 6.38,
     "color": "Black",
     "hardness": "3.50",
-    "photo": "src/shungite.png",
+    "photo": "shungite.png",
     "sketchfabUrl": "https://sketchfab.com/models/cd3b44571b374527a99cb29cd7a0dc96/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -406,7 +406,7 @@
     "price": 1.00,
     "color": "Black",
     "hardness": "2.50",
-    "photo": "src/biotite.png",
+    "photo": "biotite.png",
     "sketchfabUrl": "https://sketchfab.com/models/e6efecb1b5ac478788fee365729e9dbd/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -416,7 +416,7 @@
     "price": 3.00,
     "color": "Purple",
     "hardness": "4.00",
-    "photo": "src/fluorite.png",
+    "photo": "fluorite.png",
     "sketchfabUrl": "https://sketchfab.com/models/8d1e4ac7632443d4a47b678c7b18463d/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -426,7 +426,7 @@
     "price": 10.00,
     "color": "Blue",
     "hardness": "5.00",
-    "photo": "src/apatite.png",
+    "photo": "apatite.png",
     "sketchfabUrl": "https://sketchfab.com/models/1b6fb9670a754d00ad68e65e833083b2/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -436,7 +436,7 @@
     "price": 7.50,
     "color": "White",
     "hardness": "2.50",
-    "photo": "src/halite.png",
+    "photo": "halite.png",
     "sketchfabUrl": "https://sketchfab.com/models/a2c875b7e34e41d9bd9202aa9f587d36/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -446,7 +446,7 @@
     "price": 14.00,
     "color": "White",
     "hardness": "3.00",
-    "photo": "src/barite.png",
+    "photo": "barite.png",
     "sketchfabUrl": "https://sketchfab.com/models/e2389ca22efc4999b374413a412e1b6d/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -456,7 +456,7 @@
     "price": 25.00,
     "color": "Pink",
     "hardness": "5.50",
-    "photo": "src/rhodonite.png",
+    "photo": "rhodonite.png",
     "sketchfabUrl": "https://sketchfab.com/models/8db01d72ccd24ee7aadc16d5f800267d/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -466,7 +466,7 @@
     "price": 24.62,
     "color": "Green",
     "hardness": "6.50",
-    "photo": "src/vesuvianite.png",
+    "photo": "vesuvianite.png",
     "sketchfabUrl": "https://sketchfab.com/models/df441e4604df4f44a5a6e60adb600a44/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -476,7 +476,7 @@
     "price": 10.00,
     "color": "White",
     "hardness": "5.50",
-    "photo": "src/opal.png",
+    "photo": "opal.png",
     "sketchfabUrl": "https://sketchfab.com/models/de4e143d5c384272805429619af1ab4f/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -486,7 +486,7 @@
     "price": 150.00,
     "color": "White",
     "hardness": "2.00",
-    "photo": "src/kaolinite.png",
+    "photo": "kaolinite.png",
     "sketchfabUrl": "https://sketchfab.com/models/758701191aaa4878a2cf10aca568fd28/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -496,7 +496,7 @@
     "price": 125.00,
     "color": "Black",
     "hardness": "6.00",
-    "photo": "src/cassiterite.png",
+    "photo": "cassiterite.png",
     "sketchfabUrl": "https://sketchfab.com/models/1d1f30b819cc4332bc1553fa1e2bbda6/embed?autostart=1&transparent=1&ui_theme=dark"
   },
   {
@@ -506,7 +506,7 @@
     "price": 8.00,
     "color": "Gold",
     "hardness": "2.50",
-    "photo": "src/phlogopite.png",
+    "photo": "phologopite.png",
     "sketchfabUrl": "https://sketchfab.com/models/48c4901fd0a14c969f4ec268e7d116d8/embed?autostart=1&transparent=1&ui_theme=dark"
   }
 
