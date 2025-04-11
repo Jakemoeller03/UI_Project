@@ -45,7 +45,7 @@ if (!$item) {
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
     </button>
-	<form class="w-full md:w-1/3" method="get">
+	<form action="index.php" class="w-full md:w-1/3" method="get">
 		<div class="flex">
 			<label for="search-dropdown" title="Filter Search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
 			<button id="dropdown-button" data-dropdown-toggle="dropdown" class="shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-s-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">Sort By<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -171,13 +171,14 @@ if (!$item) {
 		</div>
 		<p class="text-gray-600"><?php echo htmlspecialchars($item['description']); ?></p>
 		<p class="text-xl font-bold mt-4">$<?php echo number_format($item['price'], 2); ?></p>
-		<a href="index.php" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded py-1">Back</a>
+		<a href="index.php" title="Back" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded py-1">Back</a>
 		<form action="addtocart.php" method="post" class="mt-4">
     	<input type="hidden" name="id" value="<?php echo htmlspecialchars($item['id']); ?>">
-    	<button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+    	<button type="submit" title="Add to Cart" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
         Add to Cart
     	</button>
 </form>
 	</div>
 </body>
 </html>
+

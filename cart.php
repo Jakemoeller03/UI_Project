@@ -1,5 +1,13 @@
 <?php
 session_start();
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['remove_id'])) {
+    $removeId = $_POST['remove_id'];
+    if (isset($_SESSION['cart'][$removeId])) {
+        unset($_SESSION['cart'][$removeId]);
+    }
+    header("Location: cart.php");
+    exit;
+}
 $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 ?>
 
@@ -158,31 +166,41 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
                     <?php $grandTotal = 0; ?>
                     <?php foreach ($cart as $id => $item): ?>
                         <?php $total = $item['price'] * $item['quantity']; ?>
-                        <?php $grandTotal += $total; ?>
+			<?php $grandTotal += $total; ?>
+<td class="py-2 flex items-start gap-4">
+        <!-- 👇 ADDED remove button -->
+        <form action="cart.php" method="post" class="mt-1">
+            <input type="hidden" name="remove_id" value="<?php echo $id; ?>">
+            <button type="submit" title="Remove" class="text-red-500 text-sm hover:underline" onclick="return confirm('Remove this item?')">Remove</button>
+        </form>
+    </div>
+</td>
+
                         <tr class="border-b">
                             <td class="py-2 flex items-center gap-4">
                                 <img src="assets/images/<?php echo htmlspecialchars($item['photo']); ?>" alt="" class="w-12 h-12 object-cover rounded">
-                                <?php echo htmlspecialchars($item['title']); ?>
-                            </td>
-                            <td class="py-2">$<?php echo number_format($item['price'], 2); ?></td>
+				<?php echo htmlspecialchars($item['title']); ?>
+			</td>
+			    <td class="py-2">$<?php echo number_format($item['price'], 2); ?></td>
                             <td class="py-2"><?php echo $item['quantity']; ?></td>
-                            <td class="py-2">$<?php echo number_format($total, 2); ?></td>
-                        </tr>
+			    <td class="py-2">$<?php echo number_format($total, 2); ?></td>                       
+			 </tr>
                     <?php endforeach; ?>
                 </tbody>
             </table>
 
             <p class="text-right text-xl font-semibold">Grand Total: $<?php echo number_format($grandTotal, 2); ?></p>
 			<form action="checkout.php" method="post" class="mt-4">
-			<button type="Order" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+			<button type="Order" title="Order"  class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
 				Order
 			</button>
 			</form>
         <?php endif; ?>
 
         <div class="mt-6">
-            <a href="index.php" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Continue Shopping</a>
+            <a href="index.php" title="Continue Shopping" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Continue Shopping</a>
         </div>
     </div>
 </body>
 </html>
+

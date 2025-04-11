@@ -146,21 +146,24 @@ session_start();
         <form id="contactForm" class="space-y-4">
             <div>
                 <label for="name" class="block text-gray-700">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Your name" required
+		<input type="text" id="name" name="name" placeholder="Your name" required
+                    title = "Please enter your name."
                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
             </div>
             <div>
                 <label for="email" class="block text-gray-700">Email</label>
-                <input type="email" id="email" name="email" placeholder="you@example.com" required
+		<input type="email" id="email" name="email" placeholder="you@example.com" required
+	            title = "please enter your email address."
                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
             </div>
             <div>
                 <label for="message" class="block text-gray-700">Message</label>
-                <textarea id="message" name="message" placeholder="Your message"required
+		<textarea id="message" name="message" placeholder="Your message"required
+		    title = "Please enter your message here."
                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm"></textarea>
             </div>
             <div>
-                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Submit</button>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600" title="Submit">Submit</button>
             </div>
         </form>
     </div>
